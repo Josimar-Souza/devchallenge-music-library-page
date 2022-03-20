@@ -229,7 +229,7 @@ main {
 }
 
 .view-card-img1 {
-    background-image: url('../assets/view1.jpg');
+    background-image: url('./assets/view1.jpg');
     background-position: 50% 6%;
     background-size: 150px;
     border-radius: 10px;
@@ -238,7 +238,7 @@ main {
 }
 
 .view-card-img2 {
-    background-image: url('../assets/view2.jpg');
+    background-image: url('./assets/view2.jpg');
     background-position: 50% 50%;
     background-size: 100px;
     border-radius: 10px;
@@ -247,7 +247,7 @@ main {
 }
 
 .view-card-img3 {
-    background-image: url('../assets/view3.jpg');
+    background-image: url('./assets/view3.jpg');
     background-position: 50% 6%;
     background-size: 115px;
     border-radius: 10px;
