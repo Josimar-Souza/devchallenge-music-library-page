@@ -93,7 +93,7 @@ main {
 }
 
 .content-section {
-    background-image: linear-gradient(to right, #13052b, #290842);
+    background-image: linear-gradient(to right, #13052b, #1f0631);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -152,11 +152,13 @@ main {
 }
 
 .playlists-container::-webkit-scrollbar-track {
-    background-color: rgba(255, 255, 255, 0.322);
+    border-radius: 15px;
+    background-color: #12011f;
 }
 
 .playlists-container::-webkit-scrollbar-thumb {
-    background-color: purple;
+    border-radius: 15px;
+    background-color: #2D0354;
 }
 
 .playlist-card {
@@ -188,8 +190,63 @@ main {
 }
 
 .views-container {
-    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
     width: 40%;
+}
+
+.views-container h1 {
+    color: white;
+    font-weight: 700;
+}
+
+.view-card {
+    align-items: center;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.view-card-img1 {
+    background-image: url('../assets/view1.jpg');
+    background-position: 50% 6%;
+    background-size: 150px;
+    border-radius: 10px;
+    height: 60px;
+    width: 60px;
+}
+
+.view-card-img2 {
+    background-image: url('../assets/view2.jpg');
+    background-position: 50% 50%;
+    background-size: 100px;
+    border-radius: 10px;
+    height: 60px;
+    width: 60px;
+}
+
+.view-card-img3 {
+    background-image: url('../assets/view3.jpg');
+    background-position: 50% 6%;
+    background-size: 115px;
+    border-radius: 10px;
+    height: 60px;
+    width: 60px;
+}
+
+.view-card-info {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.view-card-info h3{
+    text-align: left;
+    margin-left: 20px;
 }
 
 .tracks-container {
