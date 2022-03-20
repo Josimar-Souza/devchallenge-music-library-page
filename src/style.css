@@ -5,7 +5,7 @@
 }
 
 .side-bar {
-    background-color: #070018;
+    background-color: #060014;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -48,4 +48,37 @@
 .perfil-info p:hover{
     color: #b6b6b6;
     cursor: pointer;
+}
+
+.menu-section {
+    align-items: center;
+    color: #6A6A6A;
+    display: flex;
+    flex-direction: column;
+    height: 45%;
+    justify-content: space-around;
+}
+
+.menu-options {
+    display: flex;
+    flex-direction: column;
+    height: 35%;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.menu-option {
+    font-size: 18px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.menu-option:hover {
+    color: #b6b6b6;
+    cursor: pointer;
+}
+
+.menu-hr {
+    border: 1px solid #6a6a6a46;
+    width: 50%;
 }
