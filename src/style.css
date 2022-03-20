@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+main {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .side-bar {
     background-color: #060014;
     display: flex;
@@ -40,19 +45,21 @@
 }
 
 .perfil-info p{
-    color: #6A6A6A;
+    color: #5c5c5c;
     font-size: 18px;
+    font-weight: 600;
     transition: 0.5s;
 }
 
 .perfil-info p:hover{
-    color: #b6b6b6;
+    color: white;
     cursor: pointer;
+    transform: scale(1.05, 1.05);
 }
 
 .menu-section {
     align-items: center;
-    color: #6A6A6A;
+    color: #5c5c5c;
     display: flex;
     flex-direction: column;
     height: 45%;
@@ -69,16 +76,123 @@
 
 .menu-option {
     font-size: 18px;
+    font-weight: 600;
     text-align: center;
     transition: 0.5s;
 }
 
 .menu-option:hover {
-    color: #b6b6b6;
+    color: white;
     cursor: pointer;
+    transform: scale(1.2, 1.2);
 }
 
 .menu-hr {
     border: 1px solid #6a6a6a46;
+    width: 50%;
+}
+
+.content-section {
+    background-image: linear-gradient(to right, #13052b, #290842);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0 20px 50px;
+    width: 100%;
+}
+
+.search-container {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.search-container input{
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.322);
+    background-color: transparent;
+    color: white;
+    width: 80%;
+}
+
+.search-container input:focus{
+    outline: none;
+}
+
+.search-container img{
+    filter: invert();
+    transition: 0.5s;
+}
+
+.search-container img:hover{
+    cursor: pointer;
+    transform: scale(1.2, 1.2);
+}
+
+.playlists-content {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    height: 50%;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+}
+
+.playlists-container {
+    display: flex;
+    height: 85%;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    padding: 10px;
+}
+
+.playlists-container::-webkit-scrollbar {
+    height: 10px;
+}
+
+.playlists-container::-webkit-scrollbar-track {
+    background-color: rgba(255, 255, 255, 0.322);
+}
+
+.playlists-container::-webkit-scrollbar-thumb {
+    background-color: purple;
+}
+
+.playlist-card {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    flex-shrink: 0;
+    justify-content: space-around;
+    margin-left: 25px;
+    text-align: justify;
+    width: 28%;
+}
+
+.playlist-card img{
+    border-radius: 10px;
+    height: 160px;
+    width: 100%;
+}
+
+.playlist-card p{
+    color: #5c5c5c;
+}
+
+.views-tracks-content {
+    border: 1px solid red;
+    display: flex;
+    height: 40%;
+    justify-content: space-between;
+}
+
+.views-container {
+    border: 1px solid red;
+    width: 40%;
+}
+
+.tracks-container {
+    border: 1px solid red;
     width: 50%;
 }
