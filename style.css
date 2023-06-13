@@ -344,6 +344,7 @@ main {
   }
 
   .tracks-container {
+    margin-bottom: 15px;
     width: 100%;
   }
 
@@ -367,5 +368,10 @@ main {
 
   .view-card {
     margin: 10px 0;
+  }
+  
+  .search-container {
+    margin: 25px 0;
+    width: 100%;
   }
 }
