@@ -310,3 +310,68 @@ main {
     cursor: pointer;
     transform: scale(1.1, 1.1);
 }
+
+@media only screen and (max-width: 512px) {
+  .side-bar {
+    display: none;
+  }
+
+  .content-section {
+    min-height: 100vh;
+    padding: 8px;
+  }
+
+  .playlists-content {
+    justify-content: center;
+  }
+
+  .playlists-content h1 {
+    margin-bottom: 25px;
+  }
+
+  .playlists-container {
+    width: 100%;
+  }
+
+  .views-tracks-content {
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .views-container {
+    margin: 25px 0;
+    width: 100%;
+  }
+
+  .tracks-container {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  .views-container h1 {
+    margin-bottom: 20px;
+  }
+
+  .playlist-card {
+    margin: 0 12.5px;
+    text-align: center;
+    width: 40%;
+  }
+
+  .tracks-container h1 {
+    margin-bottom: 20px;
+  }
+  
+  .track-card {
+    width: 35%;
+  }
+
+  .view-card {
+    margin: 10px 0;
+  }
+  
+  .search-container {
+    margin: 25px 0;
+    width: 100%;
+  }
+}
