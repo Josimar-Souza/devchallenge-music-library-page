@@ -321,6 +321,14 @@ main {
     padding: 8px;
   }
 
+  .playlists-content {
+    justify-content: center;
+  }
+
+  .playlists-content h1 {
+    margin-bottom: 25px;
+  }
+
   .playlists-container {
     width: 100%;
   }
@@ -331,7 +339,7 @@ main {
   }
 
   .views-container {
-    margin-bottom: 15px;
+    margin: 25px 0;
     width: 100%;
   }
 
@@ -340,6 +348,24 @@ main {
   }
 
   .views-container h1 {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+  }
+
+  .playlist-card {
+    margin: 0 12.5px;
+    text-align: center;
+    width: 40%;
+  }
+
+  .tracks-container h1 {
+    margin-bottom: 20px;
+  }
+  
+  .track-card {
+    width: 35%;
+  }
+
+  .view-card {
+    margin: 10px 0;
   }
 }
