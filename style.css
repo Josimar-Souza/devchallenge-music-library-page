@@ -315,4 +315,31 @@ main {
   .side-bar {
     display: none;
   }
+
+  .content-section {
+    min-height: 100vh;
+    padding: 8px;
+  }
+
+  .playlists-container {
+    width: 100%;
+  }
+
+  .views-tracks-content {
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .views-container {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  .tracks-container {
+    width: 100%;
+  }
+
+  .views-container h1 {
+    margin-bottom: 15px;
+  }
 }
